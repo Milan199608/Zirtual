@@ -6,4 +6,12 @@ color: rgb(36, 107, 48) !important}
 ul>.nav-item >a{
     font: bolder;
 }
-
+.navbar-toggler-icon{
+    margin-left: 2rem;
+  
+}
+.navBar_toggle_style{
+    padding: 5px;
+    display:flex;
+    font-size: 1.5rem;
+}
