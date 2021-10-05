@@ -1,0 +1,13 @@
+.container{
+    text-align:center !important;
+    
+
+}
+.jumbotron{
+    background-color: rgb(29, 30, 32);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    color:#fff;
+    height:auto
+}

@@ -1,0 +1,21 @@
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.hero-banner{
+    background: linear-gradient(to right, rgba(50, 117, 177, 0.6), rgba(50, 117, 177, 0.6)) 100% 0px / 1062px 545px;
+    
+}
+.banner-img{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(50, 117, 177);
+    color: rgba(255, 255, 255, 0.9);
+    border: none;
+}
+
