@@ -5,30 +5,27 @@ import "./Banner.css"
 const Banner = () => {
     return (
         <div>
-      <section className="hero-banner banner-img d-flex align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-6 col-12 banner-box d-flex align-items-center justify-content-center flex-column">
-                <div className="row">
-                    <div className='col-md-12'><h1>Ditch the Virtual Assistant <br/> for a Zirtual Assistant who<br/> delivers every time.</h1>
-                     <p className="bannersub"> High quality virtual assistant services from a dedicated, US-<br/>based assistant with a college degree.</p>
-                     <div className="clear"></div>
-                     <button class="btn btn-success mx-2 my-2 my-sm-0" type="submit"><a href="https://www.zirtual.com/request-a-consultation">Request A Consultation</a></button>
-                     
-                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Request A Consultation</button>
+            <section id="hero" class="d-flex align-items-center">
 
+                <div class="container-fluid" data-aos="fade-up">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1>Ditch the Virtual Assistant for a Zirtual Assistant who delivers every time.</h1>
+                            <h2>High quality virtual assistant services from a dedicated, US-based assistant with a college degree.</h2>
+                            <div><a href="#about" class="btn-get-started btn-success scrollto mx-2">Request a Consultation</a>
+                            <a href="#about" class="btn-get-started btn-outline-primary scrollto">Choose your plan</a></div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                            
+                        </div>
                     </div>
-                 </div>
-          </div>
-          <div className="col-lg-6 col-md-6 col-12 banner-box d-flex align-items-center justify-content-center flex-column">
+                </div>
 
-              <div className="img"> <img className="img-fluid" alt="" src={ bannerImg} /></div>
-          </div>
+            </section>
 
 
-      </section>
-      <div className="clear"></div>
 
-          
-            
+
         </div>
     )
 }

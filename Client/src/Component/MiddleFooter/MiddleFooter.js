@@ -1,122 +1,117 @@
-import React from 'react'
+import React from 'react';
+import "./MiddleFooter.css"
 
 const MiddleFooter = () => {
-    return (
-        <div>
-<footer class="bg-dark text-center text-white">
-  <div class="container p-4">
-   
+  return (
+    <div>
+      <footer id="footer">
+        <div className="Section_title">
+          <span>Zirtual</span>
+        </div>
+        <div class="footer-top">
 
-  
+          <div class="container">
 
-    <section class="mb-4">
-      <p>
-       Zirtual
-      </p>
-    </section>
+            <div class="row">
 
-    <section>
-      <div class="row">
-        <div class="col-lg-2  col-md-4 mb-4 mb-md-0">
-          <h5 class="text-uppercase">ABOUT US</h5>
+              <div class="col-lg-2 col-md-4  footer-links">
+                <h4>ABOUT US</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Success stories</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Refer & earn</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Work For Zirtual</a></li>
+                </ul>
+              </div>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Succes stories</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Refer and earn</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Work for Zirtual</a>
-            </li>
+              <div class="col-lg-2 col-md-4 footer-links">
+                <h4>CONNECT WITH US</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Support</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Sales</a></li>
 
-          </ul>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 col-md-4 footer-links">
+                <h4>RESOURCES</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Zirtual partner</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">FaQ</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>LEGAL</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy Policy</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of Service</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Security</a></li>
+
+                </ul>
+              </div>
+
+              <div class="col-lg-2 col-md-6 footer-info">
+                <h3>Follow</h3>
+                <div class="social-links mt-3 ">
+                  <a href="#" class="twitter"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <p>the startups.com platform</p>
+            <div className="row">
+            <div class="col-lg-2 col-md-6  footer-links">
+            <h4>Education</h4><br></br>
+              <p>Education</p>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Education</h4><br></br>
+            <p>planning</p>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+
+            <h4>Education</h4><br></br>
+            <p>planning</p>
+
+            </div><div class="col-lg-2 col-md-6 footer-links">
+            <h4>Education</h4><br></br>
+            <p>planning</p>
+
+            </div><div class="col-lg-2 col-md-6 footer-links">
+            <h4>Education</h4><br></br>
+            <p>planning</p>
+
+            </div><div class="col-lg-2 col-md-6 footer-links">
+            <h4>Education</h4><br></br>
+            <p>planning</p>
+
+            </div>
+            </div>
+
+
+            &copy; Copyright <strong><span>@Ibuildsite</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+
+
+          </div>
         </div>
 
-         <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
-          <h5 class="text-uppercase">CONNECT WITH US</h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Support</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Sales</a>
-            </li>
-          
-          </ul>
-        </div>
+      </footer>
 
-        <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
-          <h5 class="text-uppercase">RESOURCES</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Zirtual Partners</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">FAQ</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Blog</a>
-            </li>
-           
-          </ul>
-        </div>
-       
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">LEGAL</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Term of Service</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">security</a>
-            </li>
-          
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Follow</h5>
-          <section class="mb-4 d-flex">
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-     
-
-    </section>
-
-         
-        </div>
-       
-      </div>
-  
-    </section>
-  
-  </div>
-
-</footer>
-            
-        </div>
-    )
+    </div>
+  )
 };
 
 export default MiddleFooter

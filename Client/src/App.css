@@ -8,3 +8,7 @@
 .clear{
   clear: both;
 }
+.icon{
+  font-size: 5rem;
+  color:rgb(201, 144, 39)
+}

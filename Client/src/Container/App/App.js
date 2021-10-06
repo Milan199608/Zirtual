@@ -11,18 +11,24 @@ import LastFooter from '../../Component/LastFooter/LastFooter';
 import Testimonial from "../Page/Testimonial/Testimonial"
 import NavBar from '../../Component/Navbar/NavBar';
  */
-import {Banner,FirstFooter,LastFooter,MiddleFooter,NavBar} from "../../Component";
+import {Banner,FirstFooter,LastFooter,MiddleFooter,NavBar,Card} from "../../Component";
 import {Pages} from "..";
+
+
 
 const App = () => {
   return (
     <div>
-<NavBar/>
 
+<NavBar/>
 <Banner/>
-<Pages.Portfolio/>
-<Pages.Testimonial/>
+<Card/>
+<Card/>
+<Card/>
+<Pages.Service/>
 <Pages.Client/>
+<Pages.Compare/>
+<Pages.Portfolio/>
 <FirstFooter/>
 <MiddleFooter/>
 <LastFooter/>

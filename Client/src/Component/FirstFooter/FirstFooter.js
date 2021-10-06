@@ -2,22 +2,24 @@ import React from 'react';
 import "./FirstFooter.css"
 
 const FirstFooter = () => {
-    return (
-        <div>
-             <section class="jumbotron  align-items-center justify-content-center">
-        <div class="container">
-          <h1 class="jumbotron-heading align-items-center justify-content-center ">Put more time into what you do best</h1>
-          <p class="lead text-muted">Meet the Zirtual Assistant who will support you</p>
-          <p >
-            <a href="#" class="btn btn-success mx-2">Request a consultation</a>
-            <a href="#" class="btn btn-outline-primary my-2">View Plans and Pricing</a>
-          </p>
+  return (
+    <div>
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+
+          <div class="text-center">
+            <h3>Put more time into what you do best</h3>
+            <p> Meet the Zirtual Assistant who will support you</p>
+            <a class="cta-btn scrollto btn-success mx-4" href="#appointment"><b>Request for consultation</b></a>
+            <a class="cta-btn scrollto btn-outline-primary" href="#appointment"><b>View plan and pricing</b></a>
+          </div>
+
         </div>
       </section>
 
-            
-        </div>
-    )
+
+    </div>
+  )
 }
 
 export default FirstFooter

@@ -2,9 +2,7 @@
 import React from 'react';
 import './NavBar.css';
 
-
 const NavBar = () => {
-
 
   return (
     <div>
@@ -36,13 +34,16 @@ const NavBar = () => {
 
           </ul>
 
-
           <button class="btn btn-success my-2 my-sm-0" type="submit">Request A Consultation</button>
 
         </div>
+        <div className="clear"></div>
       </nav>
+      
+     
 
     </div>
+    
   )
 }
 
