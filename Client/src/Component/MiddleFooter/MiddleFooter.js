@@ -12,7 +12,7 @@ const MiddleFooter = () => {
 
           <div class="container">
 
-            <div class="row">
+            <div class="row ">
 
               <div class="col-lg-2 col-md-4  footer-links">
                 <h4>ABOUT US</h4>
@@ -23,7 +23,7 @@ const MiddleFooter = () => {
                 </ul>
               </div>
 
-              <div class="col-lg-2 col-md-4 footer-links">
+              <div class="col-lg-3 col-md-4 footer-links">
                 <h4>CONNECT WITH US</h4>
                 <ul>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Support</a></li>
@@ -52,7 +52,7 @@ const MiddleFooter = () => {
               </div>
 
               <div class="col-lg-2 col-md-6 footer-info">
-                <h3>Follow</h3>
+                <h4>Follow</h4>
                 <div class="social-links mt-3 ">
                   <a href="#" class="twitter"><i class="fab fa-facebook"></i></a>
                   <a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
@@ -96,15 +96,14 @@ const MiddleFooter = () => {
             <p>planning</p>
 
             </div>
-            </div>
+            </div >
 
+            <div className="Last" >
 
             &copy; Copyright <strong><span>@Ibuildsite</span></strong>. All Rights Reserved
+            </div>
           </div>
-          <div class="credits">
-
-
-          </div>
+         
         </div>
 
 

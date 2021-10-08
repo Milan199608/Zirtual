@@ -1,39 +1,66 @@
-import React from "react";
-import "./Modal.css";
+import React, {
 
-function Modal({ setOpenModal }) {
+  useState, useEffect
+} from 'react';
+import {
+  Modal,Button
+} from "react-bootstrap";
+
+
+function Modal1() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+
+  const handleClose1 = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
+
+  useEffect(() => {
+    const popupModalValue = sessionStorage.getItem("popupModal")
+    if (!popupModalValue) {
+      const timer = setTimeout(() => {
+        setShow(true);
+        sessionStorage.setItem("popupModal", "1");
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+
+
   return (
-    <div className="modalBackground">
-      <div className="modalContainer">
-        <div className="titleCloseBtn">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
-        </div>
-        <div className="title">
-          <h1>Are You Sure You Want to Continue?</h1>
-        </div>
-        <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
-        </div>
-        <div className="footer">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-            id="cancelBtn"
-          >
-            Cancel
-          </button>
-          <button>Continue</button>
-        </div>
-      </div>
+    <div >
+      <Modal
+        show={show}
+        onHide={handleClose}
+        centered
+        size="lg"
+        >
+        <Modal show={show} onHide={handleClose} animation={false}>
+        <Modal.Header closeButton>
+          <Modal.Title>Welcome To Abstract Page</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you're on the landing Page</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary"  onClick={handleClose1}>
+         Login
+          </Button>
+          <a href="#">
+          <Button variant="primary" onClick={handleShow}>
+            Sign Up
+          </Button>
+          </a>
+        </Modal.Footer>
+      </Modal>
+       
+    
+      </Modal>
+
+
     </div>
   );
 }
 
-export default Modal;
+export default Modal1;

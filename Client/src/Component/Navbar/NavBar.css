@@ -1,17 +1,143 @@
 
 ul>.nav-item >a:hover {
 
-color: rgb(36, 107, 48) !important}
+color: rgb(227, 241, 243) !important}
 
 ul>.nav-item >a{
-    font: bolder;
+    font: bolder !important;
 }
 .navbar-toggler-icon{
     margin-left: 2rem;
-  
+    font-size: medium;
+    margin-top: 10px;
 }
+
 .navBar_toggle_style{
     padding: 5px;
     display:flex;
     font-size: 1.5rem;
+    margin-top:10px
 }
+.navbar li a {
+    color:#ffffff !important;
+    font-weight: 800;
+}
+#navbarSupportedContent{
+    font-weight: 800 !important;
+    font-size: 15px;
+
+}
+.navbar{
+    background-color: rgb(21, 211, 186) !important;
+}
+
+.navbar .active{
+    border-color:black;
+}
+.navbar a:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    white-space: nowrap;
+    border-bottom: 2px solid rgb(15, 14, 14);
+
+}
+.navbar-toggler-icon{
+    font:#ffffff;
+    font-size: large;
+
+}
+.fa-bars{
+    margin-top: 14px;
+    color:#ffffff;
+
+}
+.navbar {
+    background-color: #17b895;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    background: none;
+    background-color: crimson;
+  }
+  
+  .nav-menu {
+    background-color: #16423c;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   overflow-y: scroll;
+   position: fixed;
+    top: 0;
+    left: -100%;
+    
+    
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    margin-top: 80px;
+    
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 2px;
+    list-style: none;
+    height: 60px;
+    
+  }
+  .nav-text:hover{
+      background-color: rgb(23, 66, 36);
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 14px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    
+  }
+  
+ 
+  .nav-menu-items {
+    width: 100%;
+    
+  }
+  
+  .navbar-toggle {
+    
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+  }
+  
+  span {
+   
+    color:#ffffff;
+    font-weight: 800;
+    font-size:16px;
+ 
+
+  }
+  span:hover{
+      color:rgb(39, 122, 46)
+  }

@@ -1,25 +1,15 @@
 import React from 'react'
-
 import '../../App.css';
 
-/* import Banner from '../../Component/Banner/Banner';
-import Portfolio from "../Page/Portfolio/Portfolio";
-import Client from '../Page/Client/Client.js';
-import FirstFooter from '../../Component/FirstFooter/FirstFooter';
-import MiddleFooter from '../../Component/MiddleFooter/MiddleFooter';
-import LastFooter from '../../Component/LastFooter/LastFooter';
-import Testimonial from "../Page/Testimonial/Testimonial"
-import NavBar from '../../Component/Navbar/NavBar';
- */
-import {Banner,FirstFooter,LastFooter,MiddleFooter,NavBar,Card} from "../../Component";
+import {Banner,FirstFooter,MiddleFooter,NavBar,Card,Modal1,Login} from "../../Component";
 import {Pages} from "..";
-
-
 
 const App = () => {
   return (
     <div>
 
+
+<Modal1/>
 <NavBar/>
 <Banner/>
 <Card/>
@@ -31,10 +21,59 @@ const App = () => {
 <Pages.Portfolio/>
 <FirstFooter/>
 <MiddleFooter/>
-<LastFooter/>
-      
+<Pages.Request/>
+<Login/>
+
+
+
+{/* <Route  path="/serve">
+<NavBar/>
+<Banner/>
+<Card/>
+<Pages.Service/>
+<Pages.Client/>
+<Pages.Compare/>
+<Pages.Portfolio/>
+<FirstFooter/>
+<MiddleFooter/>
+</Route>
+<Route   path="/what">
+<NavBar/>
+<Banner/>
+<Card/>
+<Pages.Service/>
+<Pages.Client/>
+<Pages.Compare/>
+<Pages.Portfolio/>
+<FirstFooter/>
+<MiddleFooter/>
+</Route>
+
+<Route  path="/faq">
+<NavBar/>
+<Banner/>
+<Card/>
+<Pages.Service/>
+<Pages.Client/>
+<Pages.Compare/>
+<Pages.Portfolio/>
+<FirstFooter/>
+<MiddleFooter/>
+</Route>
+<Route exact  path="/pricing">
+<NavBar/>
+<Banner/>
+<Card/>
+<Pages.Service/>
+<Pages.Client/>
+<Pages.Compare/>
+<Pages.Portfolio/>
+<FirstFooter/>
+<MiddleFooter/>
+</Route> */}
+
     </div>
   )
 }
 
-export default App
+export default App;

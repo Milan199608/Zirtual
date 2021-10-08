@@ -1,11 +1,11 @@
 #footer {
-    background-color:#1f2428;
+    background-color:#218e92;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
   }
   #footer .footer-top {
-    background: #181717;
+    background: #3e7e83;
     padding: 60px 0 30px 0;
   }
   #footer .footer-top .footer-info {
@@ -28,7 +28,7 @@
   #footer .footer-top .social-links a {
     font-size: 16px;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(53, 175, 155, 0.1);
     color: #fff;
     line-height: 1;
     padding: 10px 0;
@@ -45,7 +45,7 @@
     text-decoration: none;
   }
   #footer .footer-top h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
@@ -63,7 +63,7 @@
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
 
-    font-size: 18px;
+  
     line-height: 1;
   }
   #footer .footer-top .footer-links ul li {
@@ -80,14 +80,15 @@
     display: inline-block;
     line-height: 1;
     text-decoration: none;
+    font-size: 12px;
   }
   #footer .footer-top .footer-links ul a:hover {
     color: #fff;
   }
- 
+
   
   .Section_title{
-    background:#181717;
+    background:#3e7e83;
     margin: 0px auto;
     padding: 16px;
     position: relative;
@@ -106,13 +107,17 @@
   font-size: 13px;
   color: #fff;
 }
-#footer .copyright h4{
-  padding:0
+#footer .copyright p{
+  font-size: 14px;
+}
+#footer .copyright  h4 {
+  padding:0;
+  font-size: 14px;
 }
 #footer .footer-top .social-links a {
   font-size: 16px;
   display: inline-block;
-  background: #394047;
+  background: #394746;
   color: #fff;
   line-height: 1;
   padding: 10px 0;
@@ -127,4 +132,7 @@
   background: #ec7936;
   color: #fff;
   text-decoration: none;
+}
+.Last{
+  font-size: 11px;
 }

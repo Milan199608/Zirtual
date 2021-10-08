@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-
+   font-family: "Proxima Nova",  Helvetica, Arial;
+  font-weight: lighter;
 }
 .clear{
   clear: both;

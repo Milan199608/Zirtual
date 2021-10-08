@@ -10,7 +10,7 @@ const FirstFooter = () => {
           <div class="text-center">
             <h3>Put more time into what you do best</h3>
             <p> Meet the Zirtual Assistant who will support you</p>
-            <a class="cta-btn scrollto btn-success mx-4" href="#appointment"><b>Request for consultation</b></a>
+            <a class="cta-btn scrollto btn-primary mx-4" href="#appointment"><b>Request for consultation</b></a>
             <a class="cta-btn scrollto btn-outline-primary" href="#appointment"><b>View plan and pricing</b></a>
           </div>
 
